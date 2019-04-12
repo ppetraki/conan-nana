@@ -43,7 +43,7 @@ class NanaConan(ConanFile):
         # cmake install target is not enabled by default. It installs
         # everything into a package/ under the build dir.
         cmake.definitions["NANA_CMAKE_INSTALL"] = "ON"
-        cmake.definitions["VERBOSE"] = "ON"
+
         cmake.configure(source_folder=self._vcs_folder)
         cmake.build()
         cmake.install()
