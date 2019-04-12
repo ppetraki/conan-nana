@@ -7,7 +7,7 @@ class NanaConan(ConanFile):
     version         = "1.7.0"
     license         = "MIT"
     author          = "Peter M. Petrakis  peter.petrakis@protonmail.com"
-    url             = "https://github.com/ppetraki/conan-nana-meson.git"
+    url             = "https://github.com/ppetraki/conan-nana.git"
     description     = "A modern C++ GUI library http://nanapro.org"
     topics          = ("gui", "modern-cpp", "cross-platform")
     settings        = "os", "compiler", "build_type", "arch"
